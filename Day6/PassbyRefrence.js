@@ -50,8 +50,10 @@ var obj3 = {
 
 var obj4 = Object.assign({}, obj3);
 obj4.age = 25;
-console.log(obj3);
-console.log(obj4);
+console.log(obj3);  //age 22
+console.log(obj4);  //age 25
+
+//Or we can also use spread operator 
 
 
 
